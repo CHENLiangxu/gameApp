@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="jquery.mmenu.all.css" rel="stylesheet" />
     <style type="text/css">
-body{background:#7FFFD4 url("http://www.ipiaoling.com/wp-content/uploads/2015/03/AD_2-03.jpg") top center no-repeat !important;background-size:100% auto !important}body .avatar .img-circle{background:#347433 !important}body form .btn{background:#347433 !important;border-color:#347433 !important}#header h1,#header p{background:none !important}
+body{background:#7FFFD4 url("http://europely.com/wp-content/uploads/2015/05/AD_2-03.jpg") top center no-repeat !important;background-size:100% auto !important}body .avatar .img-circle{background:#347433 !important}body form .btn{background:#347433 !important;border-color:#347433 !important}#header h1,#header p{background:none !important}
     </style>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -903,7 +903,7 @@ function next(t){
 function result(t){
     share_pop("open",10000);
     $("div#bd > div.panel-body").hide();
-    for(var i = 0; i < parseInt(total);i++){
+    for(var i = 0; i < 11;i++){
         if(parseInt(t) >= parseInt(scoreArr[i]['min']) && parseInt(t) <= parseInt(scoreArr[i]['max'])){
             $("div.js_result").eq(i).show();
             $("div.js_result").eq(i).find(".resultscore").eq(0).html($("#totalsc").val());
@@ -1029,7 +1029,7 @@ $(function(){
         document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
         document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
     }
-})();
+});
 </script>
 
     <div id="pop_success" class="text-center" style="display: none;">
@@ -1045,7 +1045,7 @@ $(function(){
             <a id="close1" href="javascript:void(0)"><i class="glyphicon glyphicon-remove"></i>
             </a>
             <div class="row text-center">
-                <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTA0NzQ4MA==&mid=292284711&idx=1&sn=9e7659f03caa397a33837a6d71c3e9bd#rd" class="btn btn-danger col-sm-12 btn-lg" id="weixinfollowlink">微信关注：--飘零旅游</a>
+                <a href="http://www.ipiaoling.com/faqs/provence_test_answer/" class="btn btn-danger col-sm-12 btn-lg" id="weixinfollowlink1">看看答案啦</a>
             </div>
             <!-- E discuss -->
         </div>
@@ -1054,7 +1054,7 @@ $(function(){
     <div id="follow" class="well" style="display: none;">
         <a id="close1" href="javascript:void(0)">X</a>
         <div class="row text-center">
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTA0NzQ4MA==&mid=292284711&idx=1&sn=9e7659f03caa397a33837a6d71c3e9bd#rd" class="btn btn-danger col-sm-12 btn-lg" id="weixinfollowlink1">微信关注：飘零旅游</a>
+            <a href="http://www.ipiaoling.com/faqs/provence_test_answer/" class="btn btn-danger col-sm-12 btn-lg" id="weixinfollowlink1">看看答案啦</a>
         </div>
         <!-- E row -->
     </div>
